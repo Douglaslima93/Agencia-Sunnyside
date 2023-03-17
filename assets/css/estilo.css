@@ -3,7 +3,6 @@ body {
     font-family: 'Barlow', sans-serif;
     font-family: 'Fraunces', serif;
     font-size: 18px;
-    
     margin: 0;
     padding: 0;
 }
@@ -11,6 +10,9 @@ body {
 .logo {
     color: white;
     margin-left: 50px;
+    float: left;
+    
+    
     
 }
 
@@ -18,9 +20,12 @@ body {
     width: 100%;
     height: 90vh;
     background-image: url('/assets/img/desktop/image-header.jpg');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     position: relative;
+    
+    
+    
 }
 
 .conteudo {
@@ -51,3 +56,114 @@ body {
     margin-top: 100px;
     color: white;
 }
+
+
+/*Inicio apresentação 1*/
+.apresentação1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: auto;
+    width: 100%;
+}
+
+.item h2 {
+    font-size: 30px;
+    text-align: center;
+    color: hsl(212, 27%, 19%);
+    
+}
+
+.item p {
+    font-size: 15px;
+    text-align: center;
+    color: hsl(213, 9%, 39%);
+}
+
+.item span{
+    font-size: 18px;
+    text-align: center;
+    color: hsl(212, 27%, 19%);
+    cursor: pointer;
+    
+}
+
+.item span :hover {
+    background-color: hsl(51, 100%, 49%);
+
+}
+/*Fim apresentação 1*/
+
+
+/*Inicio apresentação 2*/
+.apresentação2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.apresentação3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90vh;
+    
+}
+
+
+.imgcereja {
+    background-image: url(/assets/img/desktop/image-graphic-design.jpg);
+    background-size: cover;  
+    background-repeat: no-repeat;
+    width: 50%;
+}
+
+.imgmechirica {
+    background-image: url(/assets/img/desktop/image-photography.jpg);
+    background-size: cover;  
+    background-repeat: no-repeat;
+    width: 50%;
+    
+}
+
+.apresentação3 h3 {
+    font-size: 30px;
+    text-align: center;
+    color: hsl(198, 62%, 26%);
+    text-align: center;
+    margin-top: 350px;
+}
+
+.apresentação3 p {
+    font-size: 15px;
+    text-align: center;
+    color: hsl(198, 62%, 26%);
+    text-align: center;
+}
+
+/*Fim apresentação 2*/
+
+/*clientes*/
+.testemunho {
+    color: hsl(213, 9%, 39%);
+    text-align: center;
+}
+
+.clientes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.clientes img{
+    border-radius: 172px;
+    background-position: center;
+}
+
+
+
