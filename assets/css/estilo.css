@@ -157,12 +157,47 @@ body {
 .clientes {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    padding: 50px;
+    margin: auto;
+    
 }
 
 .clientes img{
     border-radius: 172px;
     background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px;  
+    display: block;
+}
+
+.clientes p {
+    font-size: 15px;
+    text-align: center;
+    color: hsl(213, 9%, 39%);
+}
+
+.clientes strong {
+    font-size: 18px;
+    text-align: center;
+    color: hsl(212, 27%, 19%);
+    display: block;
+    margin-top: 50px;
+}
+
+.clientes span {
+    display: block;
+    font-size: 13px;
+    color: hsl(213, 9%, 39%);
+    text-align: center;
+}
+
+.imgdiversas {
+    display: flex;
+    flex-direction: row;
+
 }
 
 
