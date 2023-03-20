@@ -15,6 +15,7 @@ function saiu() {
 //Fim da função contato
 
 
+
 //Funções para a frase Learn More
 let learn1 = document.querySelector('#learn1')
 learn1.addEventListener('mouseenter', entrar1)
@@ -46,5 +47,115 @@ function entrar2(){
 function saiu2 () {
     learn2.style.borderBottom = ''  
 }
+//Fim das Funções da frase Learn more
 
-//Fim das Funções da frase Learn mre
+
+
+//Inicio função palavra about
+let about = document.querySelector('#about')
+about.addEventListener('mouseenter', entrarabout)
+about.addEventListener('mouseout', saiuabout)
+
+function entrarabout () {
+    about.style.color = 'white'
+}
+
+function saiuabout () {
+    about.style.color = ''
+}
+//Fim função palavra about
+
+
+
+//Inicio função palavra services
+let services = document.querySelector('#services')
+services.addEventListener('mouseenter', entrarservices)
+services.addEventListener('mouseout', saiuservices)
+
+function entrarservices () {
+    services.style.color = 'white'
+}
+
+function saiuservices () {
+    services.style.color = ''
+}
+//Fim função palavra about
+
+
+
+//Inicio função palavra projects
+let projects = document.querySelector('#projects')
+projects.addEventListener('mouseenter', entrarprojects)
+projects.addEventListener('mouseout', saiuprojects)
+
+function entrarprojects () {
+    projects.style.color = 'white'
+}
+
+function saiuprojects () {
+    projects.style.color = ''
+}
+//Fim função palavra projects
+
+
+
+//Inicio função icone facebook
+let facebook = document.querySelector('#facebook')
+facebook.addEventListener('mouseenter', entrarfacebook)
+facebook.addEventListener('mouseout', saiufacebook)
+
+function entrarfacebook () {
+    facebook.style.background = 'white'
+}
+
+function saiufacebook () {
+    facebook.style.background = ''
+}
+//Fim função icone facebook
+
+
+
+//Inicio função icone instagram
+let instagram = document.querySelector('#instagram')
+instagram.addEventListener ('mouseenter', entrarinstagram)
+instagram.addEventListener ('mouseout', saiuinstagram)
+
+function entrarinstagram() {
+    instagram.style.background = 'white'
+}
+
+function saiuinstagram () {
+    instagram.style.background = ''
+}
+//Fim função icone instagram
+
+
+//Inicio função icone twitter
+let twitter = document.querySelector('#twitter')
+twitter.addEventListener ('mouseenter', entrartwitter)
+twitter.addEventListener ('mouseout', saiutwitter)
+
+function entrartwitter() {
+    twitter.style.background = 'white'
+}
+
+function saiutwitter () {
+    twitter.style.background = ''
+}
+//Fim função icone twitter
+
+
+
+//Inicio função icone pinterest
+let pinterest = document.querySelector('#pinterest')
+pinterest.addEventListener ('mouseenter', entrarpinterest)
+pinterest.addEventListener ('mouseout', saiupinterest)
+
+function entrarpinterest() {
+    pinterest.style.background = 'white'
+}
+
+function saiupinterest () {
+    pinterest.style.background = ''
+}
+//Fim função icone pinterest
