@@ -104,14 +104,14 @@ body {
 
 
 .imgcereja {
-    background-image: url(./assets/img/desktop/image-graphic-design.jpg);
+    background-image: url('./assets/img/desktop/image-graphic-design.jpg');
     background-size: cover;  
     background-repeat: no-repeat;
     width: 50%;
 }
 
 .imgmechirica {
-    background-image: url(./assets/img/desktop/image-photography.jpg);
+    background-image: url('./assets/img/desktop/image-photography.jpg');
     background-size: cover;  
     background-repeat: no-repeat;
     width: 50%;
