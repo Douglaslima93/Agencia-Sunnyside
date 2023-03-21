@@ -26,6 +26,7 @@ function entrar1(){
     learn1.style.borderBottomWidth = '10px'
     learn1.style.marginLeft = '200px'
     learn1.style.marginRight = '200px'
+    learn1.style.boxSizing = 'border-box'
       
 }
 
@@ -42,7 +43,8 @@ function entrar2(){
     learn2.style.borderBottom = 'thick solid hsl(7, 99%, 70%)'
     learn2.style.borderBottomWidth = '10px'
     learn2.style.marginLeft = '200px'
-    learn2.style.marginRight = '200px'    
+    learn2.style.marginRight = '200px'  
+    learn2.style.boxSizing = 'border-box'  
 }
 
 function saiu2 () {
