@@ -5,12 +5,12 @@ lista.addEventListener('mouseout', saiu)
 
 function entrar() {
     lista.style.background = 'hsla(210, 9%, 39%, 0.5)'
-    lista.style.padding = '10px'
-    lista.style.borderRadius = '20px'
+    lista.style.color = 'white'
 }
 
 function saiu() {
-    lista.style.background = ''
+    lista.style.color = 'black'
+    lista.style.background = 'white'
 }
 //Fim da função contato
 
@@ -26,8 +26,6 @@ function entrar1(){
     learn1.style.borderBottomWidth = '10px'
     learn1.style.marginLeft = '200px'
     learn1.style.marginRight = '200px'
-    learn1.style.boxSizing = 'border-box'
-      
 }
 
 function saiu1 () {
