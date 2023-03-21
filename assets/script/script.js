@@ -25,7 +25,8 @@ function entrar1(){
     learn1.style.borderBottom = 'thick solid hsl(51, 100%, 49%)'
     learn1.style.borderBottomWidth = '10px'
     learn1.style.marginLeft = '200px'
-    learn1.style.marginRight = '200px'    
+    learn1.style.marginRight = '200px'
+      
 }
 
 function saiu1 () {
